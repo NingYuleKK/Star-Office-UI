@@ -1,0 +1,332 @@
+2026-03-02T09:09:43Z INF Starting tunnel tunnelID=0b653e63-c72a-4de3-bb52-dba97c53cf60
+2026-03-02T09:09:43Z INF Version 2026.2.0 (Checksum 3cea8a51226b2e09b1f274900e2613b392403ae5c87a2e85c7e45aee5976dc12)
+2026-03-02T09:09:43Z INF GOOS: darwin, GOVersion: go1.25.7, GoArch: arm64
+2026-03-02T09:09:43Z INF Settings: map[cred-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json credentials-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json p:http2 protocol:http2]
+2026-03-02T09:09:43Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-02T09:09:43Z INF Generated Connector ID: fcf5aeaa-cb54-4f15-a7e1-bda41df59848
+2026-03-02T09:09:43Z INF Initial protocol http2
+2026-03-02T09:09:43Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T09:09:43Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T09:09:43Z INF Created ICMP proxy listening on 10.20.0.1:0
+2026-03-02T09:09:43Z INF Created ICMP proxy listening on [::1]:0
+2026-03-02T09:09:43Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T09:09:43Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T09:09:43Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-03-02T09:09:44Z INF You requested 4 HA connections but I can give you at most 2.
+2026-03-02T09:09:45Z INF Registered tunnel connection connIndex=0 connection=454ef0a4-1cb8-42f9-b78a-d99d558b70f3 event=0 ip=198.20.2.66 location=lax01 protocol=http2
+2026-03-02T09:09:46Z INF Registered tunnel connection connIndex=1 connection=8db0407b-86cd-4ae6-a67f-3b11c1c9c727 event=0 ip=198.20.2.65 location=lax08 protocol=http2
+2026-03-02T09:10:00Z INF Starting tunnel tunnelID=0b653e63-c72a-4de3-bb52-dba97c53cf60
+2026-03-02T09:10:00Z INF Version 2026.2.0 (Checksum 3cea8a51226b2e09b1f274900e2613b392403ae5c87a2e85c7e45aee5976dc12)
+2026-03-02T09:10:00Z INF GOOS: darwin, GOVersion: go1.25.7, GoArch: arm64
+2026-03-02T09:10:00Z INF Settings: map[cred-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json credentials-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json p:http2 protocol:http2]
+2026-03-02T09:10:00Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-02T09:10:00Z INF Generated Connector ID: 20882b4c-23f1-4937-a191-9fb32ecd3627
+2026-03-02T09:10:00Z INF Initial protocol http2
+2026-03-02T09:10:00Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T09:10:00Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T09:10:00Z INF Created ICMP proxy listening on 10.20.0.1:0
+2026-03-02T09:10:00Z INF Created ICMP proxy listening on [::1]:0
+2026-03-02T09:10:01Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T09:10:01Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T09:10:01Z INF Starting metrics server on 127.0.0.1:20242/metrics
+2026-03-02T09:10:01Z INF You requested 4 HA connections but I can give you at most 2.
+2026-03-02T09:10:02Z INF Registered tunnel connection connIndex=0 connection=ab08bcfe-fe6b-4687-9193-0b7692b2d3c2 event=0 ip=198.20.2.65 location=lax08 protocol=http2
+2026-03-02T09:10:03Z INF Registered tunnel connection connIndex=1 connection=fcf93da5-83e0-4bd1-970d-d54de69dce7a event=0 ip=198.20.2.66 location=lax01 protocol=http2
+2026-03-02T09:10:07Z INF Initiating graceful shutdown due to signal terminated ...
+2026-03-02T09:10:07Z INF Unregistered tunnel connection connIndex=0 event=0 ip=198.20.2.66
+2026-03-02T09:10:07Z INF Unregistered tunnel connection connIndex=1 event=0 ip=198.20.2.65
+2026-03-02T09:10:07Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.66
+2026-03-02T09:10:07Z ERR Connection terminated connIndex=0
+2026-03-02T09:10:08Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.65
+2026-03-02T09:10:08Z ERR Connection terminated connIndex=1
+2026-03-02T09:10:08Z ERR no more connections active and exiting
+2026-03-02T09:10:08Z INF Tunnel server stopped
+2026-03-02T09:10:08Z INF Metrics server stopped
+2026-03-02T09:10:08Z INF icmp router terminated error="read udp 10.20.0.1:0: raw-read udp 10.20.0.1:0: use of closed network connection"
+2026-03-02T09:10:08Z INF Starting tunnel tunnelID=0b653e63-c72a-4de3-bb52-dba97c53cf60
+2026-03-02T09:10:08Z INF Version 2026.2.0 (Checksum 3cea8a51226b2e09b1f274900e2613b392403ae5c87a2e85c7e45aee5976dc12)
+2026-03-02T09:10:08Z INF GOOS: darwin, GOVersion: go1.25.7, GoArch: arm64
+2026-03-02T09:10:08Z INF Settings: map[cred-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json credentials-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json p:http2 protocol:http2]
+2026-03-02T09:10:08Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-02T09:10:08Z INF Generated Connector ID: 9f35f75a-1dde-4305-a328-896a9092eb97
+2026-03-02T09:10:08Z INF Initial protocol http2
+2026-03-02T09:10:08Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T09:10:08Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T09:10:08Z INF Created ICMP proxy listening on 10.20.0.1:0
+2026-03-02T09:10:08Z INF Created ICMP proxy listening on [::1]:0
+2026-03-02T09:10:08Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T09:10:08Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T09:10:08Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-03-02T09:10:08Z INF You requested 4 HA connections but I can give you at most 2.
+2026-03-02T09:10:10Z INF Registered tunnel connection connIndex=0 connection=71ca9524-f2c8-49ef-8966-203df9339816 event=0 ip=198.20.2.65 location=lax11 protocol=http2
+2026-03-02T09:10:11Z INF Registered tunnel connection connIndex=1 connection=00297b6a-6466-4951-85f0-f4455d14c147 event=0 ip=198.20.2.66 location=lax06 protocol=http2
+2026-03-02T10:34:31Z INF Initiating graceful shutdown due to signal terminated ...
+2026-03-02T10:34:31Z INF Unregistered tunnel connection connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T10:34:31Z INF Unregistered tunnel connection connIndex=1 event=0 ip=198.20.2.66
+2026-03-02T10:34:32Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T10:34:32Z ERR Connection terminated connIndex=0
+2026-03-02T10:34:32Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.66
+2026-03-02T10:34:32Z ERR Connection terminated connIndex=1
+2026-03-02T10:34:32Z ERR no more connections active and exiting
+2026-03-02T10:34:32Z INF Tunnel server stopped
+2026-03-02T10:34:32Z INF icmp router terminated error="read udp [::1]:0: use of closed network connection"
+2026-03-02T10:34:32Z INF Metrics server stopped
+2026-03-02T10:34:32Z INF Starting tunnel tunnelID=0b653e63-c72a-4de3-bb52-dba97c53cf60
+2026-03-02T10:34:32Z INF Version 2026.2.0 (Checksum 3cea8a51226b2e09b1f274900e2613b392403ae5c87a2e85c7e45aee5976dc12)
+2026-03-02T10:34:32Z INF GOOS: darwin, GOVersion: go1.25.7, GoArch: arm64
+2026-03-02T10:34:32Z INF Settings: map[cred-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json credentials-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json p:http2 protocol:http2]
+2026-03-02T10:34:32Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-02T10:34:32Z INF Generated Connector ID: ca996437-efe7-4d0e-bf0b-c505846f11d9
+2026-03-02T10:34:33Z INF Initial protocol http2
+2026-03-02T10:34:33Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T10:34:33Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T10:34:33Z INF Created ICMP proxy listening on 10.20.0.1:0
+2026-03-02T10:34:33Z INF Created ICMP proxy listening on [::1]:0
+2026-03-02T10:34:33Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T10:34:33Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T10:34:33Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-03-02T10:34:33Z INF You requested 4 HA connections but I can give you at most 2.
+2026-03-02T10:34:34Z INF Registered tunnel connection connIndex=0 connection=43a414af-6eca-4a24-8323-de7f0ddbcfe6 event=0 ip=198.20.2.65 location=lax07 protocol=http2
+2026-03-02T10:34:36Z INF Registered tunnel connection connIndex=1 connection=3c6aa935-15a6-4c42-b4d1-4bcc15f6821a event=0 ip=198.20.2.66 location=lax06 protocol=http2
+2026-03-02T10:34:38Z INF Initiating graceful shutdown due to signal terminated ...
+2026-03-02T10:34:38Z INF Unregistered tunnel connection connIndex=1 event=0 ip=198.20.2.66
+2026-03-02T10:34:38Z INF Unregistered tunnel connection connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T10:34:38Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.66
+2026-03-02T10:34:38Z ERR Connection terminated connIndex=1
+2026-03-02T10:34:38Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T10:34:38Z ERR Connection terminated connIndex=0
+2026-03-02T10:34:38Z ERR no more connections active and exiting
+2026-03-02T10:34:38Z INF Tunnel server stopped
+2026-03-02T10:34:38Z INF Metrics server stopped
+2026-03-02T10:34:38Z INF icmp router terminated error="read udp 10.20.0.1:0: raw-read udp 10.20.0.1:0: use of closed network connection"
+2026-03-02T10:34:42Z INF Starting tunnel tunnelID=0b653e63-c72a-4de3-bb52-dba97c53cf60
+2026-03-02T10:34:42Z INF Version 2026.2.0 (Checksum 3cea8a51226b2e09b1f274900e2613b392403ae5c87a2e85c7e45aee5976dc12)
+2026-03-02T10:34:42Z INF GOOS: darwin, GOVersion: go1.25.7, GoArch: arm64
+2026-03-02T10:34:42Z INF Settings: map[cred-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json credentials-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json p:http2 protocol:http2]
+2026-03-02T10:34:42Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-02T10:34:43Z INF Generated Connector ID: 4ae3de6c-dd40-4cee-a6a8-b09b0732cbee
+2026-03-02T10:34:43Z INF Initial protocol http2
+2026-03-02T10:34:43Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T10:34:43Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T10:34:43Z INF Created ICMP proxy listening on 10.20.0.1:0
+2026-03-02T10:34:43Z INF Created ICMP proxy listening on [::1]:0
+2026-03-02T10:34:43Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T10:34:43Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T10:34:43Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-03-02T10:34:43Z INF You requested 4 HA connections but I can give you at most 2.
+2026-03-02T10:34:45Z INF Registered tunnel connection connIndex=0 connection=146f1878-dfeb-4d5e-9663-782e98253b40 event=0 ip=198.20.2.65 location=lax10 protocol=http2
+2026-03-02T10:34:46Z INF Registered tunnel connection connIndex=1 connection=25b87e9c-f1b0-46fe-a8d9-317f91a0ca4d event=0 ip=198.20.2.66 location=lax06 protocol=http2
+2026-03-02T11:33:39Z INF Lost connection with the edge connIndex=0
+2026-03-02T11:33:39Z ERR failed to serve incoming request error="Error shutting down control stream: client disconnected"
+2026-03-02T11:33:39Z WRN Serve tunnel error error="connection with edge closed" connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T11:33:39Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T11:33:39Z WRN Connection terminated error="connection with edge closed" connIndex=0
+2026-03-02T11:33:48Z INF Registered tunnel connection connIndex=0 connection=d92543e1-3e77-47ae-a866-4cb160e9a9bc event=0 ip=198.20.2.65 location=lax05 protocol=http2
+2026-03-02T11:34:25Z INF Initiating graceful shutdown due to signal terminated ...
+2026-03-02T11:34:25Z INF Unregistered tunnel connection connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T11:34:25Z INF Unregistered tunnel connection connIndex=1 event=0 ip=198.20.2.66
+2026-03-02T11:34:26Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T11:34:26Z ERR Connection terminated connIndex=0
+2026-03-02T11:34:26Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.66
+2026-03-02T11:34:26Z ERR Connection terminated connIndex=1
+2026-03-02T11:34:26Z ERR no more connections active and exiting
+2026-03-02T11:34:26Z INF Tunnel server stopped
+2026-03-02T11:34:26Z INF icmp router terminated error="read udp [::1]:0: use of closed network connection"
+2026-03-02T11:34:26Z INF Metrics server stopped
+2026-03-02T11:34:26Z INF Starting tunnel tunnelID=0b653e63-c72a-4de3-bb52-dba97c53cf60
+2026-03-02T11:34:26Z INF Version 2026.2.0 (Checksum 3cea8a51226b2e09b1f274900e2613b392403ae5c87a2e85c7e45aee5976dc12)
+2026-03-02T11:34:26Z INF GOOS: darwin, GOVersion: go1.25.7, GoArch: arm64
+2026-03-02T11:34:26Z INF Settings: map[cred-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json credentials-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json p:http2 protocol:http2]
+2026-03-02T11:34:26Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-02T11:34:26Z INF Generated Connector ID: b4a43284-216a-4240-9236-f1842130bd9a
+2026-03-02T11:34:26Z INF Initial protocol http2
+2026-03-02T11:34:26Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T11:34:26Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T11:34:26Z INF Created ICMP proxy listening on 10.20.0.1:0
+2026-03-02T11:34:26Z INF Created ICMP proxy listening on [::1]:0
+2026-03-02T11:34:26Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T11:34:26Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T11:34:26Z INF Starting metrics server on 127.0.0.1:20242/metrics
+2026-03-02T11:34:27Z INF You requested 4 HA connections but I can give you at most 2.
+2026-03-02T11:34:28Z INF Registered tunnel connection connIndex=0 connection=a71de186-20b0-43f8-8b57-6b60f1ba7a1a event=0 ip=198.20.2.66 location=lax06 protocol=http2
+2026-03-02T11:34:30Z INF Registered tunnel connection connIndex=1 connection=21f5f868-31fc-416c-81eb-68675fd9cf78 event=0 ip=198.20.2.65 location=lax05 protocol=http2
+2026-03-02T12:03:33Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:17291
+2026-03-02T12:03:33Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-03-02T12:03:33Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:17291
+2026-03-02T12:03:33Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-03-02T12:03:33Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:17291
+2026-03-02T12:03:33Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-03-02T12:03:33Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:17291
+2026-03-02T12:03:33Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-03-02T12:03:33Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:17291
+2026-03-02T12:03:33Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-03-02T12:03:33Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:17291
+2026-03-02T12:03:33Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-03-02T12:03:33Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:17291
+2026-03-02T12:03:33Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-03-02T12:03:33Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:17291
+2026-03-02T12:03:33Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-03-02T12:04:30Z INF Initiating graceful shutdown due to signal terminated ...
+2026-03-02T12:04:30Z INF Unregistered tunnel connection connIndex=1 event=0 ip=198.20.2.66
+2026-03-02T12:04:30Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.66
+2026-03-02T12:04:30Z ERR Connection terminated connIndex=1
+2026-03-02T12:04:30Z INF Unregistered tunnel connection connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T12:04:31Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T12:04:31Z ERR Connection terminated connIndex=0
+2026-03-02T12:04:31Z ERR no more connections active and exiting
+2026-03-02T12:04:31Z INF Tunnel server stopped
+2026-03-02T12:04:31Z INF icmp router terminated error="read udp [::1]:0: use of closed network connection"
+2026-03-02T12:04:31Z INF Metrics server stopped
+2026-03-02T12:04:31Z INF Starting tunnel tunnelID=0b653e63-c72a-4de3-bb52-dba97c53cf60
+2026-03-02T12:04:31Z INF Version 2026.2.0 (Checksum 3cea8a51226b2e09b1f274900e2613b392403ae5c87a2e85c7e45aee5976dc12)
+2026-03-02T12:04:31Z INF GOOS: darwin, GOVersion: go1.25.7, GoArch: arm64
+2026-03-02T12:04:31Z INF Settings: map[cred-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json credentials-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json p:http2 protocol:http2]
+2026-03-02T12:04:31Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-02T12:04:31Z INF Generated Connector ID: ad4646bd-fed2-4f0a-9d63-55f8ead7279e
+2026-03-02T12:04:32Z INF Initial protocol http2
+2026-03-02T12:04:32Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T12:04:32Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T12:04:32Z INF Created ICMP proxy listening on 10.20.0.1:0
+2026-03-02T12:04:32Z INF Created ICMP proxy listening on [::1]:0
+2026-03-02T12:04:32Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T12:04:32Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T12:04:32Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-03-02T12:04:32Z INF You requested 4 HA connections but I can give you at most 2.
+2026-03-02T12:04:33Z INF Registered tunnel connection connIndex=0 connection=7a2ed67d-ec66-43de-884f-45bb3d3b868e event=0 ip=198.20.2.65 location=lax08 protocol=http2
+2026-03-02T12:04:35Z INF Registered tunnel connection connIndex=1 connection=20992390-c04e-4c83-9d69-11ed076d81d6 event=0 ip=198.20.2.66 location=lax01 protocol=http2
+2026-03-02T12:34:25Z INF Initiating graceful shutdown due to signal terminated ...
+2026-03-02T12:34:26Z INF Unregistered tunnel connection connIndex=1 event=0 ip=198.20.2.65
+2026-03-02T12:34:26Z INF Unregistered tunnel connection connIndex=0 event=0 ip=198.20.2.66
+2026-03-02T12:34:26Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.65
+2026-03-02T12:34:26Z ERR Connection terminated connIndex=1
+2026-03-02T12:34:26Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.66
+2026-03-02T12:34:26Z ERR Connection terminated connIndex=0
+2026-03-02T12:34:26Z ERR no more connections active and exiting
+2026-03-02T12:34:26Z INF Tunnel server stopped
+2026-03-02T12:34:26Z INF Metrics server stopped
+2026-03-02T12:34:26Z INF icmp router terminated error="read udp 10.20.0.1:0: raw-read udp 10.20.0.1:0: use of closed network connection"
+2026-03-02T12:34:26Z INF Starting tunnel tunnelID=0b653e63-c72a-4de3-bb52-dba97c53cf60
+2026-03-02T12:34:26Z INF Version 2026.2.0 (Checksum 3cea8a51226b2e09b1f274900e2613b392403ae5c87a2e85c7e45aee5976dc12)
+2026-03-02T12:34:26Z INF GOOS: darwin, GOVersion: go1.25.7, GoArch: arm64
+2026-03-02T12:34:26Z INF Settings: map[cred-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json credentials-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json p:http2 protocol:http2]
+2026-03-02T12:34:26Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-02T12:34:27Z INF Generated Connector ID: f246f44b-2ea5-4aa6-ab71-792fb65332f2
+2026-03-02T12:34:27Z INF Initial protocol http2
+2026-03-02T12:34:27Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T12:34:27Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T12:34:27Z INF Created ICMP proxy listening on 10.20.0.1:0
+2026-03-02T12:34:27Z INF Created ICMP proxy listening on [::1]:0
+2026-03-02T12:34:27Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-02T12:34:27Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-02T12:34:27Z INF Starting metrics server on 127.0.0.1:20242/metrics
+2026-03-02T12:34:27Z INF You requested 4 HA connections but I can give you at most 2.
+2026-03-02T12:34:29Z INF Registered tunnel connection connIndex=0 connection=98fa69a5-8fd0-4434-aa2c-400f3d40aff7 event=0 ip=198.20.2.65 location=lax07 protocol=http2
+2026-03-02T12:34:30Z INF Registered tunnel connection connIndex=1 connection=f0a6a237-8ead-4ac3-b48e-341d13219709 event=0 ip=198.20.2.66 location=lax06 protocol=http2
+2026-03-02T15:40:29Z INF Lost connection with the edge connIndex=0
+2026-03-02T15:40:29Z ERR failed to serve incoming request error="Error shutting down control stream: context canceled"
+2026-03-02T15:40:29Z WRN Serve tunnel error error="connection with edge closed" connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T15:40:29Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-02T15:40:29Z INF Lost connection with the edge connIndex=1
+2026-03-02T15:40:29Z ERR failed to serve incoming request error="Error shutting down control stream: client disconnected"
+2026-03-02T15:40:29Z ERR Serve tunnel error error="connection with edge closed" connIndex=1 event=0 ip=198.20.2.66
+2026-03-02T15:40:29Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.66
+2026-03-02T15:40:29Z ERR Connection terminated error="connection with edge closed" connIndex=1
+2026-03-02T15:40:30Z ERR Connection terminated error="connection with edge closed" connIndex=0
+2026-03-02T15:40:49Z INF Registered tunnel connection connIndex=0 connection=bcdb52b1-22ac-4975-8088-8ef1d4188c89 event=0 ip=198.20.2.65 location=lax07 protocol=http2
+2026-03-02T15:40:49Z INF Registered tunnel connection connIndex=1 connection=61af64ea-3165-4eb2-8bbd-553e518ae7cf event=0 ip=198.20.2.66 location=lax06 protocol=http2
+2026-03-03T00:04:41Z ERR Failed to refresh feature selector error="lookup cfd-features.argotunnel.com on 10.20.0.2:53: dial udp 10.20.0.2:53: i/o timeout"
+2026-03-03T02:57:06Z INF Lost connection with the edge connIndex=1
+2026-03-03T02:57:06Z ERR failed to serve incoming request error="Error shutting down control stream: context canceled"
+2026-03-03T02:57:06Z WRN Serve tunnel error error="connection with edge closed" connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T02:57:06Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T02:57:07Z WRN Connection terminated error="connection with edge closed" connIndex=1
+2026-03-03T02:57:21Z INF Registered tunnel connection connIndex=1 connection=1e66d9ce-8076-46df-aeb4-8ced4bbfad42 event=0 ip=198.20.2.66 location=lax01 protocol=http2
+2026-03-03T03:27:12Z INF Lost connection with the edge connIndex=1
+2026-03-03T03:27:12Z ERR failed to serve incoming request error="Error shutting down control stream: context canceled"
+2026-03-03T03:27:12Z WRN Serve tunnel error error="connection with edge closed" connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T03:27:12Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T03:27:13Z WRN Connection terminated error="connection with edge closed" connIndex=1
+2026-03-03T03:27:44Z WRN Unable to establish connection with Cloudflare edge error="TLS handshake with edge error: read tcp 10.20.0.1:54582->198.20.2.66:7844: i/o timeout" connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T03:27:44Z WRN Serve tunnel error error="TLS handshake with edge error: read tcp 10.20.0.1:54582->198.20.2.66:7844: i/o timeout" connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T03:27:44Z WRN Connection terminated error="there are no free edge addresses left to resolve to" connIndex=1
+2026-03-03T03:28:28Z INF Registered tunnel connection connIndex=1 connection=cd0ce665-3c1c-4812-9ef1-8c44eff54beb event=0 ip=198.20.2.66 location=lax01 protocol=http2
+2026-03-03T03:35:48Z ERR failed to serve incoming request error="Error shutting down control stream: client disconnected"
+2026-03-03T03:35:48Z WRN Serve tunnel error error="Error shutting down control stream: client disconnected" connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T03:35:48Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T03:35:50Z WRN Connection terminated error="Error shutting down control stream: client disconnected" connIndex=0
+2026-03-03T03:35:54Z INF Registered tunnel connection connIndex=0 connection=13191ce4-6b6b-4d89-ba38-4fdff0248945 event=0 ip=198.20.2.65 location=lax11 protocol=http2
+2026-03-03T03:37:37Z INF Lost connection with the edge connIndex=1
+2026-03-03T03:37:37Z ERR failed to serve incoming request error="Error shutting down control stream: context canceled"
+2026-03-03T03:37:37Z WRN Serve tunnel error error="connection with edge closed" connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T03:37:37Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T03:37:38Z WRN Connection terminated error="connection with edge closed" connIndex=1
+2026-03-03T03:37:44Z WRN Unable to establish connection with Cloudflare edge error="TLS handshake with edge error: EOF" connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T03:37:44Z WRN Serve tunnel error error="TLS handshake with edge error: EOF" connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T03:37:44Z WRN Connection terminated error="there are no free edge addresses left to resolve to" connIndex=1
+2026-03-03T03:38:11Z INF Registered tunnel connection connIndex=1 connection=09004fb1-cb9f-4842-afa2-102f10a90477 event=0 ip=198.20.2.66 location=lax06 protocol=http2
+2026-03-03T03:38:16Z INF Lost connection with the edge connIndex=0
+2026-03-03T03:38:16Z ERR failed to serve incoming request error="Error shutting down control stream: client disconnected"
+2026-03-03T03:38:16Z WRN Serve tunnel error error="connection with edge closed" connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T03:38:16Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T03:38:17Z WRN Connection terminated error="connection with edge closed" connIndex=0
+2026-03-03T03:38:40Z INF Registered tunnel connection connIndex=0 connection=7a91c834-9a76-4322-a9d2-fe19e6d39294 event=0 ip=198.20.2.65 location=lax09 protocol=http2
+2026-03-03T03:40:47Z INF Lost connection with the edge connIndex=0
+2026-03-03T03:40:47Z ERR failed to serve incoming request error="Error shutting down control stream: context canceled"
+2026-03-03T03:40:47Z WRN Serve tunnel error error="connection with edge closed" connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T03:40:47Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T03:40:48Z WRN Connection terminated error="connection with edge closed" connIndex=0
+2026-03-03T03:41:05Z INF Registered tunnel connection connIndex=0 connection=0192761b-53d5-4f8c-b49f-3ac6a8c30a38 event=0 ip=198.20.2.65 location=lax05 protocol=http2
+2026-03-03T03:41:23Z INF Lost connection with the edge connIndex=1
+2026-03-03T03:41:23Z ERR failed to serve incoming request error="Error shutting down control stream: context canceled"
+2026-03-03T03:41:23Z WRN Serve tunnel error error="connection with edge closed" connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T03:41:23Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T03:41:25Z WRN Connection terminated error="connection with edge closed" connIndex=1
+2026-03-03T03:41:46Z INF Registered tunnel connection connIndex=1 connection=d8426f7a-63b5-4e96-a94d-afff75ff0eba event=0 ip=198.20.2.66 location=lax01 protocol=http2
+2026-03-03T03:43:35Z INF Lost connection with the edge connIndex=0
+2026-03-03T03:43:35Z ERR failed to serve incoming request error="Error shutting down control stream: context canceled"
+2026-03-03T03:43:35Z WRN Serve tunnel error error="connection with edge closed" connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T03:43:35Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T03:43:35Z WRN Connection terminated error="connection with edge closed" connIndex=0
+2026-03-03T03:43:50Z INF Registered tunnel connection connIndex=0 connection=be4be650-62ff-473f-aacd-6182c2d454a6 event=0 ip=198.20.2.65 location=lax09 protocol=http2
+2026-03-03T03:44:58Z ERR  error="http2: stream closed" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:17291
+2026-03-03T03:44:58Z ERR failed to serve incoming request error="Failed to proxy HTTP: http2: stream closed"
+2026-03-03T07:33:13Z INF Lost connection with the edge connIndex=0
+2026-03-03T07:33:13Z ERR failed to serve incoming request error="Error shutting down control stream: rpc: connection closed"
+2026-03-03T07:33:13Z WRN Serve tunnel error error="connection with edge closed" connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T07:33:13Z ERR  error="Incoming request ended abruptly: context canceled" connIndex=0 event=1 ingressRule=0 originService=http://127.0.0.1:17291
+2026-03-03T07:33:13Z ERR failed to serve incoming request error="Failed to proxy HTTP: Incoming request ended abruptly: context canceled"
+2026-03-03T07:33:13Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T07:33:14Z WRN Connection terminated error="connection with edge closed" connIndex=0
+2026-03-03T07:33:32Z INF Registered tunnel connection connIndex=0 connection=92b25f5c-98f5-47fc-80b3-4383bdf1b76b event=0 ip=198.20.2.65 location=lax07 protocol=http2
+2026-03-03T08:08:16Z INF Initiating graceful shutdown due to signal terminated ...
+2026-03-03T08:08:17Z INF Unregistered tunnel connection connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T08:08:17Z INF Unregistered tunnel connection connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T08:08:17Z INF Retrying connection in up to 1s connIndex=1 event=0 ip=198.20.2.66
+2026-03-03T08:08:17Z ERR Connection terminated connIndex=1
+2026-03-03T08:08:17Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T08:08:17Z ERR Connection terminated connIndex=0
+2026-03-03T08:08:17Z ERR no more connections active and exiting
+2026-03-03T08:08:17Z INF Tunnel server stopped
+2026-03-03T08:08:17Z INF icmp router terminated error="read udp [::1]:0: use of closed network connection"
+2026-03-03T08:08:17Z INF Metrics server stopped
+2026-03-03T08:08:17Z INF Starting tunnel tunnelID=0b653e63-c72a-4de3-bb52-dba97c53cf60
+2026-03-03T08:08:17Z INF Version 2026.2.0 (Checksum 3cea8a51226b2e09b1f274900e2613b392403ae5c87a2e85c7e45aee5976dc12)
+2026-03-03T08:08:17Z INF GOOS: darwin, GOVersion: go1.25.7, GoArch: arm64
+2026-03-03T08:08:17Z INF Settings: map[cred-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json credentials-file:/Users/litch/.cloudflared/0b653e63-c72a-4de3-bb52-dba97c53cf60.json p:http2 protocol:http2]
+2026-03-03T08:08:17Z INF cloudflared will not automatically update if installed by a package manager.
+2026-03-03T08:08:17Z INF Generated Connector ID: f039986e-8228-44f8-8a3e-d6501eadf343
+2026-03-03T08:08:17Z INF Initial protocol http2
+2026-03-03T08:08:17Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-03T08:08:17Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-03T08:08:17Z INF Created ICMP proxy listening on 10.20.0.1:0
+2026-03-03T08:08:17Z INF Created ICMP proxy listening on [::1]:0
+2026-03-03T08:08:18Z INF ICMP proxy will use 10.20.0.1 as source for IPv4
+2026-03-03T08:08:18Z INF ICMP proxy will use ::1 in zone lo0 as source for IPv6
+2026-03-03T08:08:18Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-03-03T08:08:18Z INF You requested 4 HA connections but I can give you at most 2.
+2026-03-03T08:08:19Z INF Registered tunnel connection connIndex=0 connection=19ac2a4b-56cf-460a-9436-17e85379be23 event=0 ip=198.20.2.66 location=lax01 protocol=http2
+2026-03-03T08:08:20Z INF Registered tunnel connection connIndex=1 connection=d183adba-6feb-4a42-916b-64ea58ed2a11 event=0 ip=198.20.2.65 location=lax05 protocol=http2
+2026-03-03T08:08:25Z INF Initiating graceful shutdown due to signal terminated ...
+2026-03-03T08:08:30Z INF Unregistered tunnel connection connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T08:08:30Z INF Retrying connection in up to 1s connIndex=0 event=0 ip=198.20.2.65
+2026-03-03T08:08:30Z ERR Connection terminated connIndex=0

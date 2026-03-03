@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star 的像素办公室</title>
+    <title>奉孝的像素办公室</title>
     <style>
         @font-face {
             font-family: 'ArkPixel';
@@ -386,7 +386,7 @@
 <body>
     <!-- 加载遮罩 -->
     <div id="loading-overlay">
-        <div id="loading-text">正在加载 Star 的像素办公室...</div>
+        <div id="loading-text">正在加载 奉孝的像素办公室...</div>
         <div id="loading-progress-container">
             <div id="loading-progress-bar"></div>
         </div>
@@ -409,7 +409,7 @@
         
         <!-- 状态控制栏 -->
         <div id="control-bar">
-            <div id="control-bar-title">Star 状态</div>
+            <div id="control-bar-title">奉孝状态</div>
             <div id="control-buttons">
                 <button onclick="setState('idle','待命')">待命</button>
                 <button onclick="setState('writing','工作中')">工作</button>
@@ -526,7 +526,7 @@
                 loadingProgressBar.style.width = percent + '%';
             }
             if (loadingText) {
-                loadingText.textContent = `正在加载 Star 的像素办公室... ${percent}%`;
+                loadingText.textContent = `正在加载 奉孝的像素办公室... ${percent}%`;
             }
         }
 
@@ -1380,12 +1380,12 @@
                 sofa.anims.play('sofa_busy', true);
             }
 
-            // 加像素风小牌匾：海辛小龙虾的办公室
+            // 加像素风小牌匾：奉孝🦊的办公室
             const plaqueX = config.width / 2;
             const plaqueY = config.height - 36;
             const plaqueBg = game.add.rectangle(plaqueX, plaqueY, 420, 44, 0x5d4037);
             plaqueBg.setStrokeStyle(3, 0x3e2723);
-            const plaqueText = game.add.text(plaqueX, plaqueY, '海辛小龙虾的办公室', {
+            const plaqueText = game.add.text(plaqueX, plaqueY, '奉孝🦊的办公室', {
                 fontFamily: 'ArkPixel, monospace',
                 fontSize: '18px',
                 fill: '#ffd700',

@@ -10,7 +10,7 @@ import threading
 
 # Paths (project-relative, no hardcoded absolute paths)
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MEMORY_DIR = os.path.join(os.path.dirname(ROOT_DIR), "memory")
+MEMORY_DIR = os.path.expanduser("~/.openclaw/workspace/memory")
 FRONTEND_DIR = os.path.join(ROOT_DIR, "frontend")
 STATE_FILE = os.path.join(ROOT_DIR, "state.json")
 AGENTS_STATE_FILE = os.path.join(ROOT_DIR, "agents-state.json")
@@ -811,7 +811,7 @@ if __name__ == "__main__":
     print("Star Office UI - Backend State Service")
     print("=" * 50)
     print(f"State file: {STATE_FILE}")
-    print("Listening on: http://0.0.0.0:18791")
+    print("Listening on: http://0.0.0.0:17291")
     print("=" * 50)
     
-    app.run(host="0.0.0.0", port=18791, debug=False)
+    app.run(host="0.0.0.0", port=17291, debug=False)
