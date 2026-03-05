@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Star Office UI - Backend State Service"""
 
+from typing import Optional
 from flask import Flask, jsonify, send_from_directory, make_response, request, session
 from datetime import datetime, timedelta
 import json
@@ -433,8 +434,8 @@ def _animated_to_spritesheet(
     out_ext: str = ".webp",
     preserve_original: bool = True,
     pixel_art: bool = True,
-    cols: int | None = None,
-    rows: int | None = None,
+    cols: Optional[int] = None,
+    rows: Optional[int] = None,
 ):
     """Convert animated GIF/WEBP to spritesheet, return (out_path, columns, rows, frames, out_frame_w, out_frame_h)."""
     backend = _ensure_magick_or_ffmpeg_available()
