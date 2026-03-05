@@ -335,6 +335,54 @@ star-office-ui/
   README.md
   LICENSE
 ```
+## 🐛 事故与 Bug 记录（奉孝部署版）
+
+> 格式：日期 · 现象 · 原因 · 修复 · 教训
+
+---
+
+### 2026-03-05 · merge-upstream-v2 部署后页面卡在加载画面
+
+**现象**：fengxiao.cc 打开后显示"正在加载 奉孝的像素办公室..."，进度条完全不动，两台电脑 Chrome 无痕窗口均复现。
+
+**原因（共3个）**：
+
+1. **JS 语法错误①：英文缩写单引号破坏字符串**  
+   upstream 英文 quotes 数组中大量缩写（`I'm`、`Let's`、`I'll`、`today's` 等）写在单引号字符串内，导致 `SyntaxError: Unexpected identifier`。Phaser 无法启动，加载回调永远不触发。  
+   受影响文件：`frontend/index.html`，涉及 `I18N.en` quotes 区块（约1606行）和搬家加载文案（约2748行）。
+
+2. **JS 语法错误②：多余的 `} else {` 块破坏 try/catch 结构**  
+   merge 冲突解决时引入一个多余的 `} else { ... }` 块，插入在 `try { }` 和 `catch` 之间，导致 `Missing catch or finally after try`。  
+   受影响位置：`fetchStatus()` 函数内 typewriter 逻辑（约4602行）。
+
+3. **OpenClaw Gateway 抢占端口 18791**  
+   upstream 把 Flask 默认端口从 17291 改为 18791，而 OpenClaw Gateway 进程（PID 248）已占用该端口。Flask 进程虽然启动，但实际绑定失败，外部请求全部打到 Express 并返回 401 Unauthorized。
+
+**修复**：
+- 英文 quotes 数组全部改为双引号包裹
+- 删除多余的 `} else { }` 块，恢复 try/catch 结构
+- `backend/run.sh` 固定 `STAR_BACKEND_PORT=17291`，避开 OpenClaw Gateway
+- `~/.cloudflared/config.yml` tunnel 指向保持 17291
+
+**教训**：
+- upstream merge 后必须用 `node --check` 验证 JS 语法再部署，不能只看 Python 启动正常
+- 多端口服务共存时要提前规划端口，避免隐性冲突（Flask 启动日志显示"成功"但实际被抢占）
+- merge 冲突解决后的代码要全量语法检查，不能只看 diff
+
+---
+
+### 2026-03-03 · Flask 进程存活但 state 卡在 syncing
+
+**现象**：fengxiao.cc 能访问但加载条不动。
+
+**原因**：`state.json` 中 state 为 `"syncing"`、progress 为 0，前端等待状态就绪才显示内容。
+
+**修复**：`POST /set_state` 手动重置为 `idle`。
+
+**教训**：Flask 重启后若有未完成的同步操作，state 文件可能残留 syncing 状态，需要检查。
+
+---
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/image?repos=ringhyacinth/Star-Office-UI&type=date&legend=top-left)](https://www.star-history.com/?repos=ringhyacinth%2FStar-Office-UI&type=date&legend=top-left)
